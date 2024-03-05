@@ -1,11 +1,11 @@
 const settings = {
-  dots: true,
-  infinite: false,
-  speed: 500,
-  slidesToShow: 4,
-  slidesToScroll: 4,
-  initialSlide: 0,
-  responsive: [
+  dots: true, // to show dots navigation
+  infinite: false, // infinite loop
+  speed: 500, // speed for slideshow
+  slidesToShow: 4, // no of items to show
+  slidesToScroll: 4, // on scroll how many items to be shown
+  initialSlide: 0, // initial slide index
+  responsive: [ // based on the view port it will update
     {
       breakpoint: 1024,
       settings: {
