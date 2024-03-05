@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Carousel from './Carousel';
+import Carousel from "./Carousel";
 import MultiItemCarousel from "./MultiItemCarousel/MultiItemCarousel";
 
 function App() {
@@ -30,10 +30,13 @@ function App() {
     <div className="App">
       <h1 className="heading">Simple React Carousel</h1>
       <div className="container">
-        <div style={{
-          width: '100%', height: '400px',
-        }}>
-        <Carousel images={images} />
+        <div
+          style={{
+            width: "100%",
+            height: "400px",
+          }}
+        >
+          <Carousel images={images} />
         </div>
         <MultiItemCarousel
           items={items}
